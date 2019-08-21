@@ -1,0 +1,315 @@
+/*  Başlık   */
+h2{
+	font-size: 32px;
+	font-weight: 400;
+	color: #18B6C7;
+	text-transform: uppercase;
+}
+h3{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+p{
+	font-size:14px;
+}
+
+#contact h3 {
+	font-size: 25px;
+	color: #18B6C7; 
+}
+
+/*  	Home Bölümü   */
+.navbar{
+	border-bottom: #1886C7 1px solid;
+}
+
+.navbar .navbar-brand {
+	color: #1886C7;
+	font-size: 24px;
+}
+
+.bg-dark {
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+	color: white !important;
+	text-transform: uppercase;
+	transition: color .5s ease; 
+}
+
+.nav-link:hover {
+	color: #18B6C7 !important;
+}
+
+#headerSection {
+	background: url('../images/card-4.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#headerSection .overlay {
+ background-color: rgba(0, 0, 0, .7);
+}
+
+#headerSection .row {
+	height: 100vh;
+}
+
+#headerSection span {
+	color: #18B6C7 !important;
+}
+
+.btn-outline-primary {
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+/*  Features Bölümü   */
+
+#features .fas,.fab{
+	font-size: 30px;
+}
+.features-child {
+	transition: color .5s ease;
+}
+
+.features-child:hover {
+	color: #18B6C7;
+	cursor: pointer;
+}
+
+/* HİSTORY BÖLÜMÜ */
+
+#ourHistory h2 {
+	border-left:  6px solid #18B6C7;
+	padding-left: 30px;
+}
+
+#ourHistory .col-md-6 {
+	display: inline;
+}
+/*
+#ourHistory .btn-outline-primary {
+	position: absolute;
+	bottom: 0;
+}
+*/
+#ourHistory p {
+	line-height: 28px;
+}
+
+
+
+
+/*.img-fluid{
+	height: 100% !important;
+}*/
+
+.ceo{
+	width: 65%;
+	height: 140px;
+}
+
+/* team section */
+
+#team .card {
+  border:none;
+  opacity: 0.5;
+  cursor:pointer;
+  transition: all 0.5s ease;
+}
+
+#team .card:hover {
+	opacity: 1;
+}
+
+#team .fab {
+	font-size: 24px;
+}
+
+#whatWeDo .fas{
+	font-size: 30px;
+}
+
+/* section arkaplan  */
+
+#whatWeDo {
+  background: linear-gradient(
+  rgba(0, 0, 0, .7),
+  rgba(0, 0, 0, .7)
+  ),
+  url(../images/INUOVO_11.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+}
+
+
+#red {
+  background:
+  url(../images/red.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  height: 300px;
+}
+
+/* case study sectıon */
+
+.bottompicture{
+	width:460px !important;
+    height:500px !important;
+}
+
+#caseStudy {
+	background-color: #f4f5f9;
+	line-height: 28px;
+}
+
+.caseArea {
+	background-color: #fff;
+	margin-top:40px;
+	margin-right: -70px;
+	z-index:2;
+	padding: 32px;
+	position: relative;
+	min-height: 300px;
+	width: 600px;
+}
+
+#caseStudy h3 {
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color:#18B6C7 ;
+}
+
+#caseStudy .fas {
+	font-size:40px;
+	color:#18B6C7 ;
+}
+
+
+
+/*  PORTFOLIA */
+
+#portfolio .col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+#portfolio h4 {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#testimonials, #portfolio .fas {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+#portfolio p {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.imageContainer {
+	position: relative;
+	cursor: pointer;
+}
+
+.imageOverlay {
+	position: absolute;
+	top:0;
+	bottom:0;
+	right: 0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	background-color: LightGray;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+	opacity: .7;
+}
+
+.imageText {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.png{
+ width:130px; 
+ height:130px;
+}
+.logo{
+	width: 250px;
+}
+
+/* Testimonials*/
+
+#testimonials {
+	background:linear-gradient(
+		rgba(0, 0, 0, .7),
+		rgba(0, 0, 0, .7)
+		),
+	url(../images/INIOVA-7.jpg);
+	background-attachment: fixed;
+	background-position:
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+
+.quote {
+	color: rgba(24, 134, 199, .9);
+	margin-bottom: 30px;
+}
+
+.blockquote-footer {
+	color: #1886c7;
+}
+
+#contact {
+	background-color: #f4f5f9;
+}
+
+#contact .input-group-text {
+	background-color: #1886c7;
+	color: #fff;
+}
+
+#main-footer {
+	color: #fff;
+	background-color: #000;
+}
+
+
+@media screen and (max-width: 600px) {
+  .history {
+    margin-top: 20px;
+  }
+
+  .caseArea{
+  	
+  	margin-bottom: 25px;
+  	width: 380px;
+  	padding: 9px;
+  }
+}
